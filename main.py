@@ -10,7 +10,7 @@ webhook = input('Enter your webhook: ')
 message = input('Enter your message: ')
 
 #Sending the discord message
-def send_discord_message(webhook_url, message):
+def send_discord_message(webhook, message):
     data = {
         'content': message
     }
